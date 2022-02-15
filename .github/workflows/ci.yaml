@@ -45,7 +45,7 @@ jobs:
       run: sudo apt update && sudo apt-get -y install libusb-1.0-0-dev libasound2-dev libudev-dev
 
     - name: Upgrade npm
-      run: npm i -g npm@8.3.1
+      run: npm i -g npm
 
     - name: Install node native development files
       shell: bash
